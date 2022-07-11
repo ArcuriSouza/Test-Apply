@@ -41,15 +41,9 @@ dotnet new web -o TestApply --framework net6.0
 #### CLI Entity Framework Core Reference 
 dotnet add package Microsoft.EntityFrameworkCore --version 6.0.0
 
-#### CLI MySql Entity Framework Reference 
-dotnet add package MySql.EntityFrameworkCore --version 6.0.1
-
 #### CLI Entity Framework Core Tools Reference 
 dotnet add package Microsoft.EntityFrameworkCore.Tools --version 6.0.0
 dotnet add package Microsoft.EntityFrameworkCore.Relational --version 6.0.0
-
-# MySql Database Scaffolding
-dotnet tool install --global dotnet-ef
 
 # Pages
 dotnet new page -n Index        -na TestApply.Pages           -o Pages
